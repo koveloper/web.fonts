@@ -211,3 +211,130 @@
         }
     }
 }
+& when (@_icomoon_font_used = true) {
+    @font-face {
+        font-family: 'geekbrains-icons';
+        src: url('../fonts/geekbrains-icons.woff?v=1_8') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: block;
+    }
+
+    [class^="icon-"],
+    [class*=" icon-"] {
+        /* use !important to prevent issues with browser extensions that change fonts */
+        font-family: 'geekbrains-icons' !important;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .icon-pencil:before {
+        content: "\e900";
+    }
+
+    .icon-development:before {
+        content: "\e901";
+    }
+
+    .icon-customization:before {
+        content: "\e902";
+    }
+
+    .icon-folder:before {
+        content: "\e903";
+    }
+
+    .icon-people:before {
+        content: "\e904";
+    }
+
+    .icon-cofee:before {
+        content: "\e905";
+    }
+
+    .icon-message:before {
+        content: "\e906";
+    }
+
+    .icon-heart:before {
+        content: "\e907";
+    }
+
+    .icon-dinner:before {
+        content: "\e908";
+    }
+
+    .icon-cart:before {
+        content: "\e909";
+    }
+
+    .icon-play:before {
+        content: "\e90a";
+    }
+
+    .icon-search:before {
+        content: "\e90b";
+    }
+
+    .icon-link:before {
+        content: "\e90c";
+    }
+
+    .icon-lupa:before {
+        content: "\e90d";
+    }
+
+    .icon-logo:before {
+        content: "\e90e";
+    }
+
+    .icon-left:before {
+        content: "\e90f";
+    }
+
+    .icon-right:before {
+        content: "\e910";
+    }
+
+    .icon-arr-right:before {
+        content: "\e911";
+    }
+
+    .icon-left_circle:before {
+        content: "\e912";
+    }
+
+    .icon-right_circle:before {
+        content: "\e913";
+    }
+
+    .icon-new:before {
+      content: "\e914";
+    }
+
+    .icon-download:before {
+        content: "\e960";
+    }
+
+    .icon-floppy-disk:before {
+        content: "\e962";
+    }
+
+    .icon-cloud-download:before {
+        content: "\e9c2";
+    }
+
+    .icon-download2:before {
+        content: "\e9c5";
+    }
+
+    .icon-download3:before {
+        content: "\e9c7";
+    }
+}
