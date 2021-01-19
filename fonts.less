@@ -1,221 +1,227 @@
 @import "fonts.usages.less";
 
+@font-name-ubuntu: '_ubuntu_';
 & when (@_ubuntu_font_used = true) {    
     & when (@_ubuntu_font_300_used = true) {
         @font-face {
-            font-family: '_ubuntu_';
+            font-family: @font-name-ubuntu;
             src: url('../fonts/ubuntu_light.woff2?v=1_0') format('woff2');
             font-weight: 300;
         }
     }
     & when (@_ubuntu_font_400_used = true) {
         @font-face {
-            font-family: '_ubuntu_';
+            font-family: @font-name-ubuntu;
             src: url('../fonts/ubuntu_regular.woff2?v=1_0') format('woff2');
             font-weight: 400;
         }
     }
     & when (@_ubuntu_font_500_used = true) {
         @font-face {
-            font-family: '_ubuntu_';
+            font-family: @font-name-ubuntu;
             src: url('../fonts/ubuntu_medium.woff2?v=1_0') format('woff2');
             font-weight: 500;
         }
     }
     & when (@_ubuntu_font_700_used = true) {
         @font-face {
-            font-family: '_ubuntu_';
+            font-family: @font-name-ubuntu;
             src: url('../fonts/ubuntu_bold.woff2?v=1_0') format('woff2');
             font-weight: 700;
         }
     }
 }
+@font-name-opensans: '_opensans_';
 & when (@_opensans_font_used = true) {
     & when (@_opensans_font_300_used = true) {
         @font-face {
-            font-family: '_opensans_';
+            font-family: @font-name-opensans;
             src: url('../fonts/opensans_light.woff2?v=1_0') format('woff2');
             font-weight: 300;
         }
     }
     & when (@_opensans_font_400_used = true) {
         @font-face {
-            font-family: '_opensans_';
+            font-family: @font-name-opensans;
             src: url('../fonts/opensans_regular.woff2?v=1_0') format('woff2');
             font-weight: 400;
         }
     }
     & when (@_opensans_font_600_used = true) {
         @font-face {
-            font-family: '_opensans_';
+            font-family: @font-name-opensans;
             src: url('../fonts/opensans_semibold.woff2?v=1_0') format('woff2');
             font-weight: 600;
         }
     }
     & when (@_opensans_font_700_used = true) {
         @font-face {
-            font-family: '_opensans_';
+            font-family: @font-name-opensans;
             src: url('../fonts/opensans_bold.woff2?v=1_0') format('woff2');
             font-weight: 700;
         }
     }
     & when (@_opensans_font_800_used = true) {
         @font-face {
-            font-family: '_opensans_';
+            font-family: @font-name-opensans;
             src: url('../fonts/opensans_extrabold.woff2?v=1_0') format('woff2');
             font-weight: 800;
         }
     }
 }
+@font-name-montserrat-alternates: '_montserrat_alternates_';
 & when (@_montserrat_alternates_font_used = true) {
     & when (@_montserrat_alternates_font_100_used = true) {
         @font-face {
-            font-family: '_montserrat_alternates_';
+            font-family: @font-name-montserrat-alternates;
             src: url('../fonts/montserratalternates_thin.woff2?v=1_0') format('woff2');
             font-weight: 100;
         }
     }
     & when (@_montserrat_alternates_font_200_used = true) {
         @font-face {
-            font-family: '_montserrat_alternates_';
+            font-family: @font-name-montserrat-alternates;
             src: url('../fonts/montserratalternates_extralight.woff2?v=1_0') format('woff2');
             font-weight: 200;
         }
     }
     & when (@_montserrat_alternates_font_300_used = true) {
         @font-face {
-            font-family: '_montserrat_alternates_';
+            font-family: @font-name-montserrat-alternates;
             src: url('../fonts/montserratalternates_light.woff2?v=1_0') format('woff2');
             font-weight: 300;
         }
     }
     & when (@_montserrat_alternates_font_400_used = true) {
         @font-face {
-            font-family: '_montserrat_alternates_';
+            font-family: @font-name-montserrat-alternates;
             src: url('../fonts/montserratalternates_regular.woff2?v=1_0') format('woff2');
             font-weight: 400;
         }
     }
     & when (@_montserrat_alternates_font_500_used = true) {
         @font-face {
-            font-family: '_montserrat_alternates_';
+            font-family: @font-name-montserrat-alternates;
             src: url('../fonts/montserratalternates_medium.woff2?v=1_0') format('woff2');
             font-weight: 500;
         }
     }
     & when (@_montserrat_alternates_font_600_used = true) {
         @font-face {
-            font-family: '_montserrat_alternates_';
+            font-family: @font-name-montserrat-alternates;
             src: url('../fonts/montserratalternates_semibold.woff2?v=1_0') format('woff2');
             font-weight: 600;
         }
     }
     & when (@_montserrat_alternates_font_700_used = true) {
         @font-face {
-            font-family: '_montserrat_alternates_';
+            font-family: @font-name-montserrat-alternates;
             src: url('../fonts/montserratalternates_bold.woff2?v=1_0') format('woff2');
             font-weight: 700;
         }
     }
     & when (@_montserrat_alternates_font_800_used = true) {
         @font-face {
-            font-family: '_montserrat_alternates_';
+            font-family: @font-name-montserrat-alternates;
             src: url('../fonts/montserratalternates_extrabold.woff2?v=1_0') format('woff2');
             font-weight: 800;
         }
     }
     & when (@_montserrat_alternates_font_900_used = true) {
         @font-face {
-            font-family: '_montserrat_alternates_';
+            font-family: @font-name-montserrat-alternates;
             src: url('../fonts/montserratalternates_black.woff2?v=1_0') format('woff2');
             font-weight: 900;
         }
     }
 }
+@font-name-montserrat: '_montserrat_';
 & when (@_montserrat_font_used = true) {
     & when (@_montserrat_font_100_used = true) {
         @font-face {
-            font-family: '_montserrat_';
+            font-family: @font-name-montserrat;
             src: url('../fonts/montserrat_thin.woff2?v=1_0') format('woff2');
             font-weight: 100;
         }
     }
     & when (@_montserrat_font_200_used = true) {
         @font-face {
-            font-family: '_montserrat_';
+            font-family: @font-name-montserrat;
             src: url('../fonts/montserrat_extralight.woff2?v=1_0') format('woff2');
             font-weight: 200;
         }
     }
     & when (@_montserrat_font_300_used = true) {
         @font-face {
-            font-family: '_montserrat_';
+            font-family: @font-name-montserrat;
             src: url('../fonts/montserrat_light.woff2?v=1_0') format('woff2');
             font-weight: 300;
         }
     }
     & when (@_montserrat_font_400_used = true) {
         @font-face {
-            font-family: '_montserrat_';
+            font-family: @font-name-montserrat;
             src: url('../fonts/montserrat_regular.woff2?v=1_0') format('woff2');
             font-weight: 400;
         }
     }
     & when (@_montserrat_font_500_used = true) {
         @font-face {
-            font-family: '_montserrat_';
+            font-family: @font-name-montserrat;
             src: url('../fonts/montserrat_medium.woff2?v=1_0') format('woff2');
             font-weight: 500;
         }
     }
     & when (@_montserrat_font_600_used = true) {
         @font-face {
-            font-family: '_montserrat_';
+            font-family: @font-name-montserrat;
             src: url('../fonts/montserrat_semibold.woff2?v=1_0') format('woff2');
             font-weight: 600;
         }
     }
     & when (@_montserrat_font_700_used = true) {
         @font-face {
-            font-family: '_montserrat_';
+            font-family: @font-name-montserrat;
             src: url('../fonts/montserrat_bold.woff2?v=1_0') format('woff2');
             font-weight: 700;
         }
     }
     & when (@_montserrat_font_800_used = true) {
         @font-face {
-            font-family: '_montserrat_';
+            font-family: @font-name-montserrat;
             src: url('../fonts/montserrat_extrabold.woff2?v=1_0') format('woff2');
             font-weight: 800;
         }
     }
     & when (@_montserrat_font_900_used = true) {
         @font-face {
-            font-family: '_montserrat_';
+            font-family: @font-name-montserrat;
             src: url('../fonts/montserrat_black.woff2?v=1_0') format('woff2');
             font-weight: 900;
         }
     }
 }
+@font-name-balsamiq-sans: '_balsamiq_sans_';
 & when (@_balsamiq_sans_font_used = true) {
     & when (@_balsamiq_sans_font_400_used = true) {
         @font-face {
-            font-family: '_balsamiq_sans_';
+            font-family: @font-name-balsamiq-sans;
             src: url('../fonts/balsamiqsans_regular.woff2?v=1_0') format('woff2');
             font-weight: 400;
         }
     }
     & when (@_balsamiq_sans_font_700_used = true) {
         @font-face {
-            font-family: '_balsamiq_sans_';
+            font-family: @font-name-balsamiq-sans;
             src: url('../fonts/balsamiqsans_bold.woff2?v=1_0') format('woff2');
             font-weight: 700;
         }
     }
 }
+@font-name-icons: 'geekbrains-icons';
 & when (@_icomoon_font_used = true) {
     @font-face {
-        font-family: 'geekbrains-icons';
+        font-family: @font-name-icons;
         src: url('../fonts/geekbrains-icons.woff?v=1_8') format('woff');
         font-weight: normal;
         font-style: normal;
